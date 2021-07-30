@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="chungdahm style.css">
+    <title>청담어학원</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/45d912128e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="section1">
+        <header>
+            <ul class="upper__menu">
+                <li id="logo">
+                    <i class="fas fa-home"></i>
+                    <a class="home" href=''>청담러닝</a>
+                </li>
+                <li><a href=''>청담어학원</a></li>
+                <li><a href=''>APRil어학원</a></li>
+                <li><a href=''>아이가르텐</a></li>
+                <li><a href=''>Page by Page</a></li>
+            </ul>
+
+            <ul class="upper__menu2">
+                <li><a href=''>수강료납입</a></li>
+                <li><a href=''>교재구매</a></li>
+                <li><a href=''>어학원찾기</a></li>
+            </ul>
+
+            <ul class='information'>
+                <li><a href="" target='_blank' id='login'>로그인</a></li>
+                <li><a href="" target='_blank' id='login'>회원가입</a></li>
+            </ul>
+
+        </header>
+        <hr class="divider" />
+
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <h1>
+                    <a href="chungdahm.html">
+                        <img src="/image/chungdahm icon.png" alt="">
+                    </a>
+                </h1>
+                <!-- <i class="fab fa-leanpub"></i> -->
+
+            </div>
+
+            <ul class="navbar__menu">
+                <li class="dropdown">
+                    <a href="" class='dropbtn'>브랜드소개</a>
+                    <div class='dropdown_content'>
+                        <br><br><br>
+                        <a href=''>브랜드</a>
+                        <a href=''>커리큘럼</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="" class='dropbtn'>입학안내</a>
+                    <div class='dropdown_content'>
+                        <br><br><br>
+                        <a href=''>입학안내</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="" class='dropbtn'>채널청담</a>
+                    <div class='dropdown_content'>
+                        <br><br><br>
+                        <a href=''>청담소식</a>
+                        <a href=''>청담스토리</a>
+                        <a href=''>톡톡에듀+</a>
+                        <a href=''>교육정보</a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="navbar__menu2">
+                <button>
+                    <i class="fas fa-crown"></i>
+                    <a href="">C.Honors</a>
+                </button>
+                <button>
+                    <i class="fas fa-book"></i>
+                    <a href="">청담 e-Library</a>
+                </button>
+                <button>
+                    <a href="">이벤트</a>
+                </button>
+
+            </ul>
+
+            <div class="navbar__icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </div>
+    <hr class="divider2" />
+
+
+    <section class="image">
+        <div>
+            <img src="image/banner_1280_1.jpg" alt="">
+        </div>
+        <div>
+            <img src="image/banner_1280_2.jpg" alt="">
+        </div>
+        <div>
+            <img src="image/banner_1280_3.jpg" alt="April어학원 5월 31일(월) 여름학기 개강">
+        </div>
+        <div>
+            <img src="image/banner_1280_4.jpg" alt="">
+        </div>
+        <div>
+            <img src="image/banner_1280_5.jpg" alt="">
+        </div>
+        <div>
+            <img src="image/banner_1280_6.jpg" alt="">
+        </div>
+    </section>
+    <script type="text/javascript">
+        $('.image').slick({
+            infinite: true,
+            speed: 300,
+            fade: true,
+            cssEase: 'linear'
+        });
+    </script>
+
+
+    <div class="section2">
+        <div class="section2-in">
+
+            <h2> <i class="fas fa-search fa-2x"></i> 학원 바로가기</h2>
+
+            <select name="brands" id="brands">
+                <option value="브랜드 선택">브랜드 선택</option>
+                <option value="청담어학원">청담어학원</option>
+                <option value="April어학원">April어학원</option>
+                <option value="아이가르텐">아이가르텐</option>
+                <option value="Page by Page">Page by Page</option>
+            </select>
+
+            <select name="locals" id="locals">
+                <option value="지역 선택">지역 선택</option>
+                <option value="강원">강원</option>
+                <option value="경기">경기</option>
+                <option value="광주/전남">광주/전남</option>
+                <option value="대구/경북">대구/경북</option>
+                <option value="대전/충남">대전/충남</option>
+                <option value="부산/경남">부산/경남</option>
+                <option value="서울">서울</option>
+                <option value="세종">세종</option>
+                <option value="인천">인천</option>
+                <option value="전주/전북">전주/전북</option>
+                <option value="제주">제주</option>
+                <option value="청주/충북">청주/충북</option>
+            </select>
+
+            <select name="academies" id="academies">
+                <option value="학원 선택">학원 선택</option>
+
+
+            </select>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="section3">
+        <div class='section3-col'>
+            <div class="brand-item brand-item1">
+                <div class="cap">
+                    <span class="brand-logo">청담어학원</span>
+                    <span class="period">
+                        <span class="term">21년 여름학기</span>
+                        <span class="date">
+                            <span class="iblock">21.05.31</span>
+                            <span class="iblock">~21.08.29</span>
+                        </span>
+                    </span>
+                </div>
+                <dl class='brand-info'>
+                    <dt>창의 융합형 21세기 인재 양성</dt>
+                    <dd class="des">풍부한 배경지식과 영어 사고력, 표현력, 상상력을 키워 자신만의 비전을 형성하는 ESL 창의사고 교육의 완성</dd>
+                    <dd class="btn"> <button>어학원찾기</button></dd>
+                </dl>
+
+            </div>
+
+            <div class="brand-item brand-item2">
+                <div class="cap">
+                    <span class="brand-logo">April어학원</span>
+                    <span class="period">
+                        <span class="term">1학기 여름
+
+                        </span>
+                        <span class="date">
+                            <span class="iblock">21.05.31</span>
+                            <span class="iblock">~21.08.29</span>
+                        </span>
+                    </span>
+                </div>
+                <dl class='brand-info'>
+                    <dt>언어, 사고, 예술의
+                        결합으로
+                        창의사고력 개발</dt>
+                    <dd class="des">언어, 사고, 예술의 유기적인 결합으로 창의사고력 쑥쑥! Creative Learning의 NO.1 에이프릴어학원</dd>
+                    <dd class="btn"> <button>어학원찾기</button></dd>
+                </dl>
+            </div>
+
+            <div class="brand-item brand-item3">
+                <div class="cap">
+                    <span class="brand-logo">아이가르텐</span>
+                    <span class="period">
+                        <span class="term">21년 2학기</span>
+                        <span class="date">
+                            <span class="iblock">21.08.30</span>
+                            <span class="iblock">~22.03.01</span>
+                        </span>
+                    </span>
+                </div>
+                <dl class='brand-info'>
+                    <dt>상상력과
+                        창의력을 키우는
+                        유아전문 교육</dt>
+                    <dd class="des">우리아이가 마음껏 상상의 나래를 펴고 자신을 표현하는 청담러닝의 유아전문 ESL 교육기관 아이가르텐</dd>
+                    <dd class="btn"> <button>어학원찾기</button></dd>
+                </dl>
+            </div>
+
+            <div class="brand-item brand-item4">
+                <div class="cap">
+                    <span class="brand-logo">Page by Page</span>
+                    <span class="period">
+                        <span class="term">21년 여름학기
+
+                        </span>
+                        <span class="date">
+                            <span class="iblock">21.05.31</span>
+                            <span class="iblock">~21.08.29</span>
+                        </span>
+                    </span>
+                </div>
+                <dl class='brand-info'>
+                    <dt>미래를 읽는 창의융합
+                        프로젝트 독서 논술</dt>
+                    <dd class="des">4차 산업혁명 시대, 소통하고 공감하는 창의융합형 리더를 키우는 독서토론논술 교육</dd>
+                    <dd class="btn"> <button>어학원찾기</button></dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class='section3-col2'>
+            <i class="xi-angle-left-min"></i>
+            <i class="xi-angle-right-min"></i>
+
+            <div class='image-banner'>
+                <section class="image_banner">
+                    <div>
+                        <img src="image/image_banner_1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="/image/image_banner_2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="image/image_banner_3.png" alt="">
+                    </div>
+                    <div>
+                        <img src="image/image_banner_4.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="image/image_banner_5.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="image/image_banner_6.jpg" alt="">
+                    </div>
+                </section>
+                <script type="text/javascript">
+                    $('.image_banner').slick({
+                        infinite: true,
+                        speed: 300,
+                        fade: true,
+                        cssEase: 'linear'
+                    });
+                </script>
+            </div>
+
+            <div class='news'>
+                <h2>청담소식</h2>
+                <li>
+                    <span class='subj-in'>i-GARTEN 2학기 신입생 모집 8월 30일 개강</span>
+                </li>
+                <li>
+                    <span class='subj-in'>청담어학원 5월 31일(월) 여름학기 개강</span>
+                </li>
+                <li>                    
+                    <span class='subj-in'>April어학원 5월 31일(월) 여름학기 개강</span>
+                </li>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section4"></div>
+    <div class="section5"></div>
+
+</body>
